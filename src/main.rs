@@ -12,7 +12,7 @@ fn main() {
     let mut img = match ImageReader::open(path) {
         Ok(img) => { img.decode().unwrap() }
         Err(_) => {
-            println!("图片{}读取失败", path);
+            println!("Failed to read the image {}", path);
             return;
         }
     };
