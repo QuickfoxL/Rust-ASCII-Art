@@ -1,11 +1,11 @@
-# Rust ASCII Art
+# Rust 字符画
 [English](README.md) | [简体中文](README-CN.md)
-## Running
+## 运行
 ```bash
-cargo run "path to the image"
+cargo run "图片路径"
 ```
-## Original Image
+## 原图
 <img src="avatar.webp" width="200" alt="avatar"/>
 
-## Implementation Result
+## 实现效果
 <img src="demo.png" width="400" alt="demo">
