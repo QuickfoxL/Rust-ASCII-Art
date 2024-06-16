@@ -5,7 +5,7 @@
 cargo run "path to the image"
 ```
 ## Original Image
-<img src="avatar.webp" width="200" alt="avatar"/>
+![avatar](img/avatar.png)
 
 ## Implementation Result
-<img src="demo.png" width="400" alt="demo">
+![demo](img/demo.png)

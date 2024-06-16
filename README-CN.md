@@ -5,7 +5,7 @@
 cargo run "图片路径"
 ```
 ## 原图
-<img src="avatar.webp" width="200" alt="avatar"/>
+![avatar](img/avatar.png)
 
 ## 实现效果
-<img src="demo.png" width="400" alt="demo">
+![demo](img/demo.png)
