@@ -23,6 +23,8 @@ fn main() {
         img = img.resize_exact((width as f64 * resize_factor) as u32,
                                (height as f64 * resize_factor * 0.45) as u32,
                                FilterType::Nearest);
+    } else {
+        img = img.resize_exact(width, (height as f64 * 0.45) as u32, FilterType::Nearest);
     }
     let width = img.width();
     let height = img.height();
